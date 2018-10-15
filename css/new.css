@@ -1,0 +1,40 @@
+:root,
+body,
+p {
+  margin: 0%;
+  padding: 0%; }
+
+body {
+  font-family: 100% Helvetica, sans-serif;
+  color: #d3a91f; }
+
+main {
+  width: 90%;
+  margin: 0 auto;
+  background: #e3be42;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  padding: 10px; }
+
+header nav ul {
+  list-style: none; }
+  header nav ul li {
+    margin: 0;
+    display: inline; }
+    header nav ul li a {
+      text-decoration: none;
+      color: #d3a91f; }
+      header nav ul li a:hover {
+        text-decoration: underline; }
+
+div, footer, .myContainers {
+  background: #797979;
+  padding: 5px; }
+
+footer {
+  padding: 20px;
+  margin-top: 20px; }
+
+.myContainers {
+  color: #000; }

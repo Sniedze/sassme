@@ -1,0 +1,50 @@
+@import "init";
+
+$maincolor: #d3a91f;
+$mainfont: 100% Helvetica, sans-serif;
+
+body {
+  font-family: $mainfont;
+  color: $maincolor;
+}
+main {
+  width: 90%;
+  margin: 0 auto;
+  background: #e3be42;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+header {
+  nav {
+    ul {
+      list-style: none;
+      li {
+        margin: 0;
+        display: inline;
+        a {
+          text-decoration: none;
+          color: $maincolor;
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+}
+div {
+  background: #797979;
+  padding: 5px;
+}
+footer {
+  @extend div;
+  padding: 20px;
+  margin-top: 20px;
+}
+.myContainers {
+  @extend div;
+  color: #000;
+}

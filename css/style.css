@@ -1,4 +1,6 @@
-html, body, p {
+html,
+body,
+p {
   margin: 0;
   padding: 0;
 }
@@ -33,7 +35,9 @@ main {
   padding: 10px;
 }
 
-div, footer, .myContainers {
+div,
+footer,
+.myContainers {
   background: #797979;
   padding: 5px;
 }

@@ -1,0 +1,23 @@
+{
+  "name": "sassme",
+  "version": "1.0.0",
+  "description": "1. Download the css folder and the index html file or...\r - Start by forking this repo to make it your own. \r - Then clone it.\r 2. look at the css file\r 3. make some reverse engineering and construct the scss file to compile the resulting css file \r ## HINTS\r - only two colours and two mesures are defined...\r - Use variables, nesting, parenting, partials and operations   \r check the documentation:   \r https://sass-lang.com/guide  \r https://tutorialzine.com/2016/01/learn-sass-in-15-minutes  \r - Place .scss files in a seperate folder",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "mysass": "node-sass sass.scss css/new.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sniedze/sassme.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sniedze/sassme/issues"
+  },
+  "homepage": "https://github.com/Sniedze/sassme#readme",
+  "devDependencies": {
+    "node-sass": "^4.9.4"
+  }
+}
